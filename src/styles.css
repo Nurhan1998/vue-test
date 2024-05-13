@@ -1,0 +1,27 @@
+:root {
+  --base-font-family: 'Roboto', sans-serif;
+  --basic-font-size: 14px;
+  --font-size-s: 8px;
+  --font-size-m: 12px;
+  --font-size-l: 16px;
+  --font-size-xl: 18px;
+
+  --color-secondary: #f2f2f2;
+  --color-secondary-hover: #747474;
+  --color-error: #fc1704;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-black-opacity: rgb(0 0 0 / 30%);
+  --color-gray-50: #f8f8f8;
+  --color-gray-100: #cecccc;
+  --color-gray-200: #a6a5a5;
+  --color-gray-300: #666;
+
+  --ui-index-1: 1;
+  --ui-index-2: 2;
+  --ui-index-3: 3;
+  --ui-index-4: 4;
+  --ui-index-5: 5;
+  --ui-index-6: 6;
+  --ui-index-7: 7;
+}

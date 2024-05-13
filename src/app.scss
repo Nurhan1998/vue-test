@@ -1,0 +1,11 @@
+@mixin flex($direction, $justify, $align) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+}
+
+@mixin unsplash-layout {
+  width: 900px;
+  padding: 20px;
+}

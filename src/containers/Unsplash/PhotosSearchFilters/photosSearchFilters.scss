@@ -1,0 +1,43 @@
+@import "/src/app";
+
+.filters-wrapper {
+  @include flex(row, center, center);
+  @include unsplash-layout;
+}
+.search {
+  &__wrapper {
+    @include flex(row, space-between, center);
+    width: 420px;
+  }
+
+  &__input {
+    padding: 0 5px;
+    width: 300px;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid lightslategrey;
+
+    &:active,
+    &:focus-visible,
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &__btn {
+    height: 30px;
+    width: 100px;
+    border-radius: 4px;
+    border: 1px solid rgb(224, 224, 230);
+    color: black;
+
+    &:hover {
+      color: #36ad6a;
+      border-color: #36ad6a;
+    }
+
+    &:active {
+      transform: scale(0.9);
+    }
+  }
+}
